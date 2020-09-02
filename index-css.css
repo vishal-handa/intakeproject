@@ -1,0 +1,378 @@
+	#example1 {
+  		background-image: url(img1.jpg);
+  		background-size: cover;
+  		background-repeat:contain;
+  		background-position: center;
+  		width: 100%;
+  		max-height: 300px;
+  		height: 300px;
+  		border-style: solid;
+  		border-color:    #fdebd0;
+  		border-width: 7px;
+  		opacity:0,8;
+		}	
+	#newBG {
+  		background-image: url(img2.jpg);
+  		background-repeat: repeat;
+  		width: 100%;
+  		height:2000px;
+  		border-style: solid;
+  		border-color: #fdebd0;
+  		border-width: 7px;
+  		opacity:0.7;
+		}	
+
+	.img4
+    	{
+      position: absolute;
+      top: 170px;
+      left: 80px;
+      border-style: solid;
+  	  border-color:    #fdebd0;
+  	  border-width: 7px;
+  	  border-radius: 50px;
+  	  box-shadow: inset 0px 0px 40px 40px #DBA632;
+    	}
+    #heading{
+    	position: absolute;
+    	top:275px;
+    	left:320px;
+    	font-size: 100px;
+    	font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;
+    	color: #825B1F;
+    }
+
+    #text1{
+    	position: absolute;
+    	top: 480px;
+    	left:50px;
+    	font-size: 20px;
+    	font-family: "Times", "Times new roman", serif;
+    	color: #825B1F;
+    }
+
+.container1 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:650px;
+  left:8%;
+}
+
+.image1 {
+  display: block;
+
+}
+
+.overlay1 {
+position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.container2 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:650px;
+  left:38%;
+}
+
+.image2 {
+  display: block;
+
+}
+
+.overlay2 {
+ position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+
+.container3 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:650px;
+  left:68%;
+  right:8%;
+}
+
+.image3 {
+  display: block;
+
+}
+
+.overlay3 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+
+.container4 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1070px;
+  left:8%;
+}
+
+.image4 {
+  display: block;
+  left:20px;
+
+}
+
+.overlay4 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+
+.container5 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1070px;
+  left:38%;
+}
+
+.image5 {
+  display: block;
+
+}
+
+.overlay5 {
+ position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+
+.container6 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1070px;
+  left:68%;
+  right:8%;
+}
+
+.image6 {
+  display: block;
+
+}
+
+.overlay6 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+
+
+.container7 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1490px;
+  left:8%;
+}
+
+.image7 {
+  display: block;
+
+}
+
+.overlay7 {
+position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container7:hover .overlay7 {
+  opacity: 1;
+}
+
+.container8{
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1490px;
+  left:38%;
+}
+
+.image8 {
+  display: block;
+
+}
+
+.overlay8 {
+ position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container8:hover .overlay8 {
+  opacity: 1;
+}
+
+
+.container9 {
+  position: absolute;
+  width: 300px;
+  max-width: 450px;
+  top:1490px;
+  left:68%;
+  right:8%;
+}
+
+.image9 {
+  display: block;
+
+}
+
+.overlay9 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 260px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container9:hover .overlay9 {
+  opacity: 1;
+}
+
+.button {
+  background-color: #825B1F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #6f490f ;
+  color: white;
+}
+
+.form1 {
+  position: absolute;
+  width: 800px;
+  top:1880px;
+  left:8%;
+  font-size: 20px;
+  font-family: "Times", "Times new roman", serif;
+  color: #825B1F;
+  text-align: left;
+}
